@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link  rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-firestore.js"></script>
+
+
+    <title>Domotica</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Domotica</h1>
+        
+        <button id="light1" class="light-off">Licht 1 aanzetten</button>
+        <button id="light2" class="light-off">Licht 2 aanzetten</button>
+        <button id="light3" class="light-off">Licht 3 aanzetten</button>
+        <button id="light4" class="light-off">Licht 4 aanzetten</button>
+        <button id="lightAllOn" class="light-switch">Alle lichten aandoen</button>
+        <button id="lightAllOff" class="light-switch">Alle lichten uitdoen</button>
+        
+        <button id="power1" class="power-off">Stopcontact 1 aanzetten</button>
+        <button id="power2" class="power-off">Stopcontact 2 aanzetten</button>
+        <button id="power3" class="power-off">Stopcontact 3 aanzetten</button>
+        <button id="power4" class="power-off">Stopcontact 4 aanzetten</button>
+        <button id="powerAllOn" class="power-switch">Alle stopcontacten aanzetten</button>
+        <button id="powerAllOff" class="power-switch">Alle stopcontacten uitzetten</button>
+
+        <button id="door1" class="door-closed">Deur 1 openen</button>
+        <button id="door2" class="door-closed">Deur 2 openen</button>
+
+        <button id="alarm" class="alarm-off">Alarm</button>
+        
+    </div>
+</body>
+</html>
+
+<script src="assets/js/firebase.js"></script>
+<script src="assets/js/scripts.js"></script>
+
+
+<script>
+    console.log(db);
+</script>

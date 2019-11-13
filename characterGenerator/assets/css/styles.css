@@ -1,0 +1,28 @@
+body{
+    background-color: pink;
+    color:red;
+    height:100%;
+}
+
+.container{
+    flex-wrap: wrap;
+}
+
+.matrix{
+    border: solid 2px black;
+    width: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell{
+    box-sizing: border-box;
+    width: 5vw;
+    height: 5vw;
+    border: solid 1px black;
+    background-color:#dadada;
+}
+
+.cell.clicked{
+    background-color:#444444;
+}
